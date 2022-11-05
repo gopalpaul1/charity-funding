@@ -236,7 +236,7 @@ body{
 }
 .event-container{
     display: flex;
-    margin: 80px;
+    margin: 70px;
 }
 .event-content{
     display: flex;
@@ -275,7 +275,7 @@ body{
     transition: all .6s ease;
 }
 .e-img-box{
-    margin-right: 15px;
+    margin-right: 20px;
 }
 .e-img-box2{
     display: flex;
