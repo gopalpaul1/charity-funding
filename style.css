@@ -1,0 +1,481 @@
+body{
+    margin: 0px;
+}
+.h-content{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    margin: 80px 120px;
+}
+.single-header-info{
+    float: left;
+    padding-left: 35px;
+    height: 100px;
+}
+
+.icon-box{
+    height: 60px;
+    width: 60px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 58px;
+    margin-right: 15px;
+    color: #f14b05;
+}
+.inner-box{
+    display: table-cell;
+    vertical-align: middle;
+}
+.content{
+    display: table-cell;
+    vertical-align: middle;
+}
+.single-header-info .donate-btn{
+    margin-top: 25px;
+
+    
+}
+.donate-btn{
+    text-decoration: none !important;
+    background: #f14b05;
+    border-radius: 30px;
+    display: block;
+    color: #fff;
+    /* font-size: 12px; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: 2px solid transparent;
+    transition: all .6s ease;
+}
+.donate-btn:hover{
+    background: none;
+    border: 2px solid #f14b05;
+    color: #f14b05;
+}
+
+.container{
+    background: #262F36;
+    border-bottom: 4px solid #f14b05;
+    height: 50px;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99999;
+    /* transition: all .3s ease-in-out; */
+    animation-name: fadeInDown;
+    animation-fill-mode: both;
+}
+.nav-container, a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.nav-container{
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-container, a:hover{
+    color: #f14b05;
+    transition: all .6s ease;
+}
+.search-box{
+    width: 260px;
+    padding: 5px;
+    background-color:black;
+}
+.s-input{
+    border: none;
+    background: none;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    width: 200px;
+    height: 40px;
+}
+.s-icon{
+    margin-left: 30px;
+    color: #fff;
+}
+
+/* Main section */
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+    }
+            
+    @keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+    }
+#l-support-box{
+    background-image: url(/Assets/Happy-volunteers-with-children-holding-donation-boxes-indoors.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+    height: 600px;
+    border: 1px solid grey;
+    -webkit-animation: backgroundScroll 20s linear infinite;
+    animation: backgroundScroll 10s linear infinite;
+    
+}
+
+.s-box-content{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.s-box-content h2{
+    font-size: 40px;
+    color:white;
+}
+.s-box-content h3{
+    color: #f14b05;
+    font-size: 30px;
+}
+.s-box-content p{
+    color: white;
+    font-weight: bold;
+}
+
+.s-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.a-btn:hover{
+    background-color: #fff;
+    color: #f14b05;  
+}
+.a2-btn{
+    background-color: #fff;
+    color: #f14b05;
+    border: 2px solid #f14b05;
+}
+.a2-btn:hover{
+    background-color: #f14b05;
+    color: #fff;
+}
+
+.donation-container{
+    display: flex;
+    /* justify-content:center; */
+    height: 250px;
+}
+.donation-content{
+    display: flex;
+    width: 400px;
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+        #ff4f04e1,
+        #fc4e04e1
+    ),
+    /* your image */
+    url(/Assets/iStock-166637296.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 50px;
+
+}
+.dcontent-box2{
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+        #ff4f049e,
+        #ff4f049e
+    ),
+    /* your image */
+    url(/Assets/iStock-166637296.jpg);
+}
+.donation-content:hover{
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+        #a53201bc,
+        #a53201bc
+    ),url(/Assets/iStock-166637296.jpg);
+}
+.c-icon{
+    height: 50px;
+    width: 80px;
+    margin-top: 20px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    line-height: 58px;
+    margin-right: 20px;
+}
+.donate-box{
+    color: #fff;
+}
+.donate-box a{
+    width: 100px;
+    font-size: 14px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: none;
+}
+.donate-box a:hover{
+    width: 100px;
+    font-size: 14px;
+    background-color: #f14b05;
+    color: #fff;
+}
+.event-container{
+    display: flex;
+    margin: 80px;
+}
+.event-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.event-icon{
+    display: flex;
+    
+}
+.event-icon i{
+    background-color: #f14b05;
+    color: #fff;
+    text-align: center;
+    padding: 8px 10px;
+    margin: 5px;
+
+}
+.event-icon i:hover{
+    background-color: #fff;
+    border: 2px solid #f14b05;
+    color: #f14b05;
+}
+.e-cont h3{
+    border-bottom: 6px double #f14b05;
+    border-spacing: 20px;
+}
+.e-cont-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+.e-cont-box:hover{
+    color: #f14b05;
+    transition: all .6s ease;
+}
+.e-img-box{
+    margin-right: 20px;
+}
+.e-img-box2{
+    display: flex;
+    justify-content: space-between;
+    color:grey;
+    background-color: #e3e6e7;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 150px;
+}
+.logo-container img{
+width: 140px;
+}
+.cause-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 60px;
+    margin-top: 60px;
+}
+.cause-content{
+    width: 360px;
+    padding: 5px;
+}
+.btn-2{
+    margin-right: 40px;
+}
+.btn-1{
+  font-size: 10px;
+}
+
+.volunteer-container{
+    margin-top: 80px;
+}
+.vol-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+.vol-box h1{
+    font-size: 40px;
+}
+.vol-box p{
+    color: grey;
+    font-weight: bold;
+}
+.volunteer-con{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.trust-container{
+    background-color: #f14b05;
+    margin-top: 100px;
+    height: 350px;
+
+}
+.trust-box{
+    width: 200px;
+    text-align: center;
+    color: #fff;
+}
+.trust-ele{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.t-icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trust-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:80px;
+}
+.trust-icon{
+    border-radius: 40px;
+    background-color: white;
+    color: #f14b05;
+    padding: 12px 20px;
+}
+.trust-icon:hover{
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: #f14b05;
+    color: white;
+    padding: 12px 20px;
+}
+
+/* footer */
+.f-container{
+    background-color: #262F36;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.f-info{
+    color: #fff;
+    display: flex;
+}
+.f-info i{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.f-info-icon{
+    padding-top: 16px;
+}
+.f-icon{
+    margin-top: 20px;
+}
+.f-icon i{
+    margin-right: 10px;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+
+.pages-content a{
+    display: block;
+    padding-bottom: 20px;
+
+}
+.news-box{
+    display: flex;
+    border: 2px solid red;
+}
+.from-content form input{
+    display: block;
+    margin: 10px;
+    background-color:black;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+}
+.from-content form textarea{
+    display: block;
+    margin: 10px;
+    background-color:black;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 100px;
+    padding-left: 10px;
+    font-size: large;
+}
+.form-btn{
+    display: block;
+    margin: 10px;
+    background-color:black;
+    outline: none;
+    border: none;
+    width: 262px;
+    height: 40px;
+    padding-left: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #f14b05;
+}
+.f-heading{
+    color: aliceblue;
+}
+
+.copy-w{
+    text-align: center;
+    background-color: #262F36;
+    border-top: 1px solid grey;
+    height: 60px;
+    color: #cfd0d0;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.copy-w span{
+    color: #f14b05;
+}
