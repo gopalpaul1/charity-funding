@@ -275,7 +275,7 @@ body{
     transition: all .6s ease;
 }
 .e-img-box{
-    margin-right: 20px;
+    margin-right: 15px;
 }
 .e-img-box2{
     display: flex;
@@ -367,6 +367,11 @@ width: 140px;
     margin-left: auto;
     margin-right: auto;
 }
+.t-icon:hover{
+    border: 1px solid #f14b05;
+    color: #f14b05;
+    background-color: #e3e6e7;
+}
 .trust-content{
     display: flex;
     justify-content: space-between;
@@ -418,6 +423,11 @@ width: 140px;
     border-radius: 50%;
     padding: 10px;
     
+}
+.f-icon i:hover{
+    border: 1px solid #f14b05;
+    color: #e3e6e7;
+    background-color: #f14b05;
 }
 
 .pages-content a{
