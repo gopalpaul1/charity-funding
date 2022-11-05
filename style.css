@@ -120,7 +120,7 @@ body{
     to {background-position: -400px 0;}
     }
 #l-support-box{
-    background-image: url(/Assets/Happy-volunteers-with-children-holding-donation-boxes-indoors.jpg);
+    background-image: url(Assets/Happy-volunteers-with-children-holding-donation-boxes-indoors.jpg);
     background-repeat:repeat;
     background-size: cover;
     height: 600px;
@@ -182,7 +182,7 @@ body{
         #fc4e04e1
     ),
     /* your image */
-    url(/Assets/iStock-166637296.jpg);
+    url(Assets/iStock-166637296.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 50px;
@@ -196,7 +196,7 @@ body{
         #ff4f049e
     ),
     /* your image */
-    url(/Assets/iStock-166637296.jpg);
+    url(Assets/iStock-166637296.jpg);
 }
 .donation-content:hover{
     background-image: 
@@ -204,7 +204,7 @@ body{
     linear-gradient(
         #a53201bc,
         #a53201bc
-    ),url(/Assets/iStock-166637296.jpg);
+    ),url(Assets/iStock-166637296.jpg);
 }
 .c-icon{
     height: 50px;
